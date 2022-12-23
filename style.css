@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: relative;
+    overflow: hidden;
+}
+.road{
+    background: linear-gradient(270deg, #F201FF 0%, #104CFF 30.52%, #6DE3FC 69.06%, rgba(63, 175, 255, 0) 100%);
+}
+
+.car{
+    animation: moveCar linear ;
+}
+.car{
+    animation animation-name: moveCar;
+}
+.car{
+    animation-iteration-count: 1;
+}
+.car{
+    animation-delay: 1s;}
+.car{
+        animation-duration: 5s;
+}
+
+@keyframes moveCar{
+    0%{
+        transform: translateX(0);
+        opacity: 1;}
+
+    100%{
+    transform: translateX(100%);
+    opacity: 1;
+    }  
+}
